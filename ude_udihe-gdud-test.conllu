@@ -1,0 +1,881 @@
+# sent_id = Udihe_grammar_1
+# text = Uli-gi-li-wəŋ-ki-ti.
+# text[eng] = They made (somebody) start sewing again.
+1	Uli-gi-li-wəŋ-ki-ti	Uli	VERB	_	Aspect=Repetitive|Number=Plur|Person=3|Tense=Past|Voice=Cau	0	root	_	SpaceAfter=No|Gloss=sew-REF-INC-CAUS-PST-3PL
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Udihe_grammar_2
+# text = B’ata ami-ni ŋənə-ʒəŋə-ʒi-ni ŋələ-ini.
+# text[eng] = The boy is afraid that his father would go away.
+1	B’ata	B’ata	NOUN	_	Number=Sing	3	nsubj	_	Gloss=boy
+2	ami-ni	ami	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Gloss=father-3SG
+3	ŋənə-ʒəŋə-ʒi-ni	ŋənə	VERB	_	Case=Ins|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	ccomp	_	Gloss=go-FUT-INS-3SG
+4	ŋələ-ini	ŋələ	ADJ	_	Degree=Pos|Number=Sing|Person=3	0	root	_	SpaceAfter=No|Gloss=be.afraid-3SG
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Udihe_grammar_3
+# text = Əmə-gi-ʒəŋə-i.- ə-ʒəŋə-i əmə-gi.
+# text[eng] = I will come back. – I won’t come back.
+1	Əmə-gi-ʒəŋə-i	əmə	VERB	_	Mood=Ind|Number=Sing|Person=1|Reflex=Yes|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=come-REF-FUT-1SG
+2	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	-	-	PUNCT	_	_	1	punct	_	_
+4	ə-ʒəŋə-i	ə	VERB	_	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Fut|VerbForm=Fin	1	conj	_	Gloss=VNEG-FUT-1SG
+5	əmə-gi	əmə	PRON	_	Number=Sing|Person=1|PronType=Prs	4	obj	_	SpaceAfter=No|Gloss=come-REF
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Udihe_grammar_4
+# text = Galakta-gi-mi bi-hi-mi.
+# text[eng] = I have been looking (for you).
+1	Galakta-gi-mi	Galakta	VERB	_	Reflex=Yes|VerbForm=Ger	2	obl	_	Gloss=look.for-REF-GER
+2	bi-hi-mi	bi	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=be-PRS-1SG
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Udihe_grammar_5
+# text = B’ata in’ai-ni.
+# text[eng] = The boy’s dog.
+1	B’ata	B’ata	NOUN	_	Number=Sing	2	nmod	_	Gloss=boy
+2	in’ai-ni	in’ai	NOUN	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes	0	root	_	SpaceAfter=No|Gloss=dog-3SG
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Udihe_grammar_6
+# text = Minti ʒugdi-fi.
+# text[eng] = Our (INCL) house.
+1	Minti	Minti	PRON	_	Number=Plur|Person=1|PronType=Incl	2	nmod	_	Gloss=1PL.INCL
+2	ʒugdi-fi	ʒugdi	NOUN	_	Clusivity=In|Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes	0	root	_	SpaceAfter=No|Gloss=house-1PL.INCL
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Udihe_grammar_7
+# text = Uŋta-na-hi.
+# text[eng] = Something that serves for you as a footwear.
+1	Uŋta-na-hi	Uŋta	NOUN	_	Deriv=Dest|Number=Sing|Number[psor]=Sing|Person[psor]=2|Poss=Yes	0	root	_	SpaceAfter=No|Gloss=boot-DEST-2SG
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Udihe_grammar_8
+# text = Ələhə bua-du uli-lə bukki o-si-ni buniga-tigi tukəä-mə ŋənə-ini.
+# text[eng] = If somebody has drowned far away (in another place) he comes to the underworld running.
+1	Ələhə	Ələhə	ADV	_	_	5	advmod	_	Gloss=other
+2	bua-du	bua	NOUN	_	Case=Dat	5	obl	_	Gloss=place-DAT
+3	uli-lə	uli	NOUN	_	Case=Loc	5	obl	_	Gloss=river-LOC
+4	bukki	bukki	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	Gloss=die-PST-3SG
+5	o-si-ni	o	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=do-PST-3SG
+6	buniga-tigi	buniga	NOUN	_	Deriv=Dir	5	obl	_	Gloss=underworld-DIR
+7	tukəä-mə	tukəä	VERB	_	VerbForm=Ger	5	advcl	_	Gloss=run-GER
+8	ŋənə-ini	ŋənə	VERB	_	Mood=Ind|Number=Sing|Person=3|VerbForm=Fin	5	conj	_	SpaceAfter=No|Gloss=go-3SG
+9	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Udihe_grammar_9
+# text = Min-du omo gaa-wa bu-jə.
+# text[eng] = Give me one branch (of bird-cherry).
+1	Min-du	Min	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	_	Gloss=1SG-DAT
+2	omo	omo	NUM	_	NumType=Card	5	nummod	_	Gloss=one
+3	gaa-wa	gaa	NOUN	_	Case=Acc	5	obj	_	Gloss=branch-ACC
+4	bu-jə	bu	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=give-IMP
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Udihe_grammar_10
+# text = Manga bi-mi Bua-du imi uu-hi?
+# text[eng] = You are strong; why are you killed by God?
+1	Manga	Manga	ADJ	_	_	2	amod	_	Gloss=strong
+2	bi-mi	bi	VERB	_	Number=Sing|Person=1|VerbForm=Ger	0	root	_	Gloss=be-GER
+3	Bua-du	Bua	NOUN	_	Case=Dat	4	obl	_	Gloss=God-DAT
+4	imi	imi	ADV	_	_	5	advmod	_	Gloss=why
+5	uu-hi	uu	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No|Gloss=be.killed-2SG
+6	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Udihe_grammar_11
+# text = Uti nada lusa-ʒiga-du sugala-wa təti-wəŋ-ki-ni.
+# text[eng] = She made those seven Russians put on skis.
+1	Uti	Uti	DET	_	PronType=Dem	4	det	_	Gloss=this
+2	nada	nada	NUM	_	NumType=Card	4	nummod	_	Gloss=seven
+3	lusa-ʒiga-du	lusa	NOUN	_	Case=Dat|Number=Plur	4	nmod	_	Gloss=russian-PL-DAT
+4	sugala-wa	sugala	NOUN	_	Case=Acc	5	dep	_	Gloss=ski-ACC
+5	təti-wəŋ-ki-ni	təti	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Cau	0	root	_	SpaceAfter=No|Gloss=put.on-CAUS-PST-3SG
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Udihe_grammar_12
+# text = Xula doo-ni-ni ʒomi-nʒi diga-si-ə-ni cu’oi-wə.
+# text[eng] = They ate bird cherries under the blanket in secret.
+1	Xula	Xula	NOUN	_	Number=Sing	5	nsubj	_	Gloss=blanket
+2	doo-ni-ni	doo	NOUN	_	Case=Dat|Number=Sing|Person=3	1	nmod	_	Gloss=inside-DAT-3SG
+3	ʒomi-nʒi	ʒomi	ADV	_	_	5	advmod	_	Gloss=by.stealth
+4	diga-si-ə-ni	diga	VERB	_	Aspect=Dur|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=eat-DUR-PST-3SG
+5	cu’oi-wə	cu’oi	NOUN	_	Case=Acc	4	obj	_	SpaceAfter=No|Gloss=bird.cherry-ACC
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Udihe_grammar_13
+# text = Imaa suu-du calä-i-ni.
+# text[eng] = The snow melts in the sun.
+1	Imaa	Imaa	NOUN	_	Number=Sing	3	nsubj	_	Gloss=snow
+2	suu-du	suu	NOUN	_	Case=Dat	3	obl	_	Gloss=sun-DAT
+3	calä-i-ni	calä	VERB	_	Number=Sing|Person=3|VerbForm=Vnoun	0	root	_	SpaceAfter=No|Gloss=melt-PRP-3SG|VerbFormOrig=Prp
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Udihe_grammar_14
+# text = Mama-du ‘oi biə.
+# text[eng] = Grandmother has poultry.
+1	Mama-du	Mama	NOUN	_	Case=Dat	3	nsubj	_	Gloss=grandmother-DAT
+2	‘oi	‘oi	NOUN	_	_	3	obj	_	Gloss=poultry
+3	biə	biə	VERB	_	VerbForm=Vnoun	0	root	_	SpaceAfter=No|Gloss=be-PRP|VerbFormOrig=Prp
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Udihe_grammar_15
+# text = ‘Ai-wa təna b’a-han-di-fəi umi-məi sokto-ho-ti.
+# text[eng] = As they drank spirits for the first time (in their life) they got drunk.
+1	‘Ai-wa	‘Ai	NOUN	_	Case=Acc	5	obj	_	Gloss=vodka-ACC
+2	təna	təna	NUM	_	NumType=Ord	5	nummod	_	Gloss=first.time
+3	b’a-han-di-fəi	b’a	VERB	_	Case=Dat|Number=Plur|VerbForm=Part	5	advcl	_	Gloss=find-PP-DAT-SS.PL|VerbFormOrig=PP
+4	umi-məi	umi	VERB	_	Number=Plur|VerbForm=Ger	5	advcl	_	Gloss=drink-GER.PL
+5	sokto-ho-ti	sokto	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=get.drunk-PST-3PL
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Udihe_grammar_16
+# text = Mənə aka-la-i sindagi-a-ni b’ata-wa əmugə giə⸗də.
+# text[eng] = She put the cradle with the child on her back.
+1	Mənə	Mənə	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Gloss=REFL
+2	aka-la-i	aka	ADV	_	Case=Loc	5	obl	_	Gloss=back-LOC-SS
+3	sindagi-a-ni	sindagi	NOUN	_	Case=Acc|Number=Sing	5	obj	_	Gloss=put.as.backpack-PST-3SG
+4	b’ata-wa	b’ata	NOUN	_	Case=Acc|Number=Sing	5	obj	_	Gloss=boy-ACC
+5	əmugə	əmugə	NOUN	_	_	0	root	_	Gloss=cradle
+6	giə⸗də	giə⸗də	ADP	_	_	5	case	_	SpaceAfter=No|Gloss=COMIT-FOC
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Udihe_grammar_17
+# text = Ni-tigi goala-ŋi-miə⸗də uli-lə taŋda bələntə.
+# text[eng] = Having turned into a human he pulled the girl out of the river.
+1	Ni-tigi	Ni	NOUN	_	Deriv=Dir	5	obl	_	Gloss=human-DIR
+2	goala-ŋi-miə⸗də	goala	VERB	_	Deriv=Rev|VerbForm=Ger	5	advcl	_	Gloss=turn-REV-GER⸗FOC
+3	uli-lə	uli	NOUN	_	Case=Loc	5	obl	_	Gloss=water-LOC
+4	taŋda	taŋda	NOUN	_	Number=Sing	5	obj	_	Gloss=girl
+5	bələntə	bələntə	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=pull-PST
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Udihe_grammar_18
+# text = Ñutə-lə iktəmahəni.
+# text[eng] = (He) bit off a bit of the tar.
+1	Ñutə-lə	Ñutə	NOUN	_	Case=Loc	2	obl	_	Gloss=resin-LOC
+2	iktəmahəni	iktəmahə	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=bite-PST-3SG
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Udihe_grammar_19
+# text = Bəliə diəli-kca-mi kuga-la lafa-a-ni.
+# text[eng] = The girl trying to fly away got stuck inside the smoke duct.
+1	Bəliə	Bəliə	NOUN	_	Number=Sing	5	nsubj	_	Gloss=girl
+2	diəli-kca-mi	diəli	VERB	_	Aspect=Pro|VerbForm=Ger	5	acl	_	Gloss=fly-PRO-GER
+3	kuga-la	kuga	NOUN	_	Case=Loc	5	obl	_	Gloss=smoke.duct-LOC
+4	lafa-a-ni	lafa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=get.stuck-PST-3SG
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Udihe_grammar_20
+# text = Əxin-dilə-i ŋəni-ə-ni.
+# text[eng] = He returned to his elder sister.
+1	Əxin-dilə-i	Əxin	NOUN	_	Case=Loc|Number=Sing	2	obl	_	Gloss=sister-LOC-SS.SG
+2	ŋəni-ə-ni	ŋəni	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=go-PST-3SG
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Udihe_grammar_21
+# text = Uta-wa bi xauntasi-ə-mi abugə-lə əninə-lə⸗də.
+# text[eng] = I asked my father and mother about this.
+1	Uta-wa	Uta	DET	_	Case=Acc|PronType=Dem	3	obj	_	Gloss=this-ACC
+2	bi	bi	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
+3	xauntasi-ə-mi	xauntasi	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	Gloss=ask-PST-1SG
+4	abugə-lə	abugə	NOUN	_	Case=Loc	3	obl	_	Gloss=father-LOC
+5	əninə-lə⸗də	əninə	NOUN	_	Case=Loc	3	obl	_	SpaceAfter=No|Gloss=mother-LOC⸗and
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Udihe_grammar_22
+# text = Baa-la jahi bagdi-ga.
+# text[eng] = A noise from outside was heard.
+1	Baa-la	Baa	ADV	_	Case=Loc	3	obl	_	Gloss=outside-LOC
+2	jahi	jahi	NOUN	_	Number=Sing	3	nsubj	_	Gloss=noise
+3	bagdi-ga	bagdi	VERB	_	Mood=Ind|Tense=Perf|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=find-PRF
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Udihe_grammar_23
+# text = Bua buini⸗bədə bi-hi-wə jaa-la saa-ʒa-hi.
+# text[eng] = You will know by sight that he is like a taiga beast.
+1	Bua	Bua	NOUN	_	_	5	nsubj	_	Gloss=taiga
+2	buini⸗bədə	buini	NOUN	_	_	5	obl	_	Gloss=beast-like
+3	bi-hi-wə	bi	VERB	_	Case=Acc|VerbForm=Vnoun	5	obl	_	Gloss=be-PRP-ACC|VerbFormOrig=Prp
+4	jaa-la	jaa	NOUN	_	Case=Loc	5	obl	_	Gloss=eye-LOC
+5	saa-ʒa-hi	saa	VERB	_	Mood=Opt|Number=Sing|Person=2|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=know-OPT-2SG
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Udihe_grammar_24
+# text = Ñaʒakta-ɨ bi-isi⸗də, ñaʒakta-tigi gəla-musə-i.
+# text[eng] = If you had a younger brother, I would have asked the brother (for you).
+1	Ñaʒakta-ɨ	Ñaʒakta	NOUN	_	Number=Sing|Person=2	2	obl	_	Gloss=younger.brother-2SG
+2	bi-isi⸗də	bi	VERB	_	Deriv=DS|VerbForm=Part	0	root	_	SpaceAfter=No|Gloss=be-PC.DS⸗FOC|VerbFormOrig=PC
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	ñaʒakta-tigi	ñaʒakta	NOUN	_	Deriv=Dir	5	obj	_	Gloss=younger.brother-DIR
+5	gəla-musə-i	gəla	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	advcl	_	SpaceAfter=No|Gloss=ask-CONJ-1SG
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Udihe_grammar_25
+# text = Xatala bogoli-ḛ-ni dəgdi-tigi-ni isəsi-ə̰-i.
+# text[eng] = The girl looked in his face and was scared.
+1	Xatala	Xatala	NOUN	_	Number=Sing	3	nsubj	_	Gloss=girl
+2	bogoli-ḛ-ni	bogoli	NOUN	_	Deriv=Dir|Number=Sing|Person=3	3	obl	_	Gloss=face-DIR-3SG
+3	dəgdi-tigi-ni	dəgdi	VERB	_	Conj=SS|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin	0	root	_	Gloss=look-PST-SS
+4	isəsi-ə̰-i	isəsi	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No|Gloss=be.frightened-PST-3SG
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Udihe_grammar_26
+# text = Xuñaʒi-ni tagda-a̰-ni mafa-tigi-ni.
+# text[eng] = His sister was angry with her husband.
+1	Xuñaʒi-ni	Xuñaʒi	NOUN	_	Number=Sing|Person=3	2	nsubj	_	Gloss=sister-3SG
+2	tagda-a̰-ni	tagda	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=be.angry-PST-3SG
+3	mafa-tigi-ni	mafa	NOUN	_	Deriv=Dir|Number=Sing|Person=3	2	obl	_	SpaceAfter=No|Gloss=husband-DIR-3SG
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Udihe_grammar_27
+# text = Aja ʒugdi-lə ŋua-nə-jə-hu Ŋənə-hə-ti ʒugdi-du aŋasi-ha-ti.
+# text[eng] = “Well, let us go to sleep in the house!” They went and spent the night in the house.
+1	Aja	Aja	INTJ	_	_	5	discourse	_	Gloss=ok
+2	ʒugdi-lə	ʒugdi	NOUN	_	Case=Loc	5	obl	_	Gloss=house-LOC
+3	ŋua-nə-jə-hu	ŋua	VERB	_	Deriv=And|Mood=Ind|Number=Plur|Person=2|VerbForm=Imp	5	advcl	_	Gloss=sleep-AND-IMP-2PL
+4	Ŋənə-hə-ti	Ŋənə	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=go-PST-3PL
+5	ʒugdi-du	ʒugdi	NOUN	_	Case=Dat	4	obl	_	Gloss=house-DAT
+6	aŋasi-ha-ti	aŋasi	VERB	_	Deriv=Dur|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	SpaceAfter=No|Gloss=spend.night-DUR-PST-3PL
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Udihe_grammar_28
+# text = Təə auŋga-la iin-ka-u.
+# text[eng] = There we reached the hunting shelter.
+1	Təə	Təə	ADV	_	_	3	advmod	_	Gloss=there
+2	auŋga-la	auŋga	NOUN	_	Case=Loc	3	obl	_	Gloss=hunting.shelter-LOC
+3	iin-ka-u	iin	VERB	_	Incl=Excl|Mood=Ind|Number=Plur|Person=1|Tense=Perf|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=reach-PRF-1PL.EXCL
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Udihe_grammar_29
+# text = Käämikta-la-ni nagda-ha-ni.
+# text[eng] = He hit the temple (of a boar).
+1	Käämikta-la-ni	Käämikta	NOUN	_	Case=Loc|Number=Sing|Person=3	2	obl	_	Gloss=temple-LOC-3SG
+2	nagda-ha-ni	nagda	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=hit.target-PST-3SG
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Udihe_grammar_30
+# text = Sama ʒugdi-tigi əhini ŋənə.
+# text[eng] = The shaman does not go to the house.
+1	Sama	Sama	NOUN	_	Number=Sing	4	nsubj	_	Gloss=shaman
+2	ʒugdi-tigi	ʒugdi	NOUN	_	Deriv=Dir	4	obl	_	Gloss=house-DIR
+3	əhini	əhini	ADV	_	Polarity=Neg	4	advmod	_	Gloss=NEG-3SG
+4	ŋənə	ŋənə	VERB	_	Mood=Ind|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=go
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Udihe_grammar_31
+# text = Ot’osi⸗tənə ʒaŋgä ʒugdi-lə-ni iigi-hə-ti.
+# text[eng] = Then they entered the house of the superior.
+1	Ot’osi⸗tənə	Ot’osi	INTJ	_	_	5	discourse	_	Gloss=Then⸗and
+2	ʒaŋgä	ʒaŋgä	NOUN	_	_	5	obl	_	Gloss=boss
+3	ʒugdi-lə-ni	ʒugdi	NOUN	_	Case=Loc|Number=Sing|Person=3	5	obl	_	Gloss=house-LOC-3SG
+4	iigi-hə-ti	iigi	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=come.in-PST-3PL
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Udihe_grammar_32
+# text = Min-du iliənti ajani ŋənə-li-ə-ni.
+# text[eng] = I was almost three years old.
+1	Min-du	Min	PRON	_	Incl=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	Gloss=1SG-DAT
+2	iliənti	iliənti	NUM	_	_	4	obl	_	Gloss=third year
+3	ajani	ajani	VERB	_	Tense=Past|VerbForm=Inc	4	advmod	_	Gloss=go-INC-PST
+4	ŋənə-li-ə-ni	ŋənə	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=go-PST-3SG
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Udihe_grammar_33
+# text = Mne shol tretij god.
+# text[eng] = I was almost three years old (lit. The third year went to me).
+1	Mne	Mne	PRON	_	Number=Sing|Person=1|PronType=Prs	4	iobj	_	Gloss=1SG.DAT
+2	shol	shol	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Imp	0	root	_	Gloss=go.IMP.PST.3SG
+3	tretij	tretij	NUM	_	_	4	obl	_	Gloss=third
+4	god	god	NOUN	_	_	2	obl	_	SpaceAfter=No|Gloss=year
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Udihe_grammar_34
+# text = Əninə mina-wa naa-tigi tinda-ga.
+# text[eng] = Mother put me on the ground.
+1	Əninə	Əninə	NOUN	_	Number=Sing	5	nsubj	_	Gloss=mother
+2	mina-wa	mina	PRON	_	Number=Sing|Person=1|PronType=Prs	5	iobj	_	Gloss=1SG-ACC
+3	naa-tigi	naa	NOUN	_	Deriv=Dir	5	obl	_	Gloss=ground-DIR
+4	tinda-ga	tinda	VERB	_	Mood=Ind|Tense=Perf|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=let.go-PRF
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Udihe_grammar_35
+# text = Kindəkində naa-tigi xətigə-hə-ni.
+# text[eng] = He somehow jumped down to the ground.
+1	Kindəkində	Kindəkində	ADV	_	_	3	advmod	_	Gloss=somehow
+2	naa-tigi	naa	NOUN	_	Deriv=Dir	3	obl	_	Gloss=ground-DIR
+3	xətigə-hə-ni	xətigə	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=jump-PST-3SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Udihe_grammar_36
+# text = Doumi-lə əgdi ñ’aula sugʒä-wa aki-si-ti məimə-ʒi.
+# text[eng] = On the bridge many boys were spearing fish with gigs.
+1	Doumi-lə	Doumi	NOUN	_	Case=Loc	6	obl	_	Gloss=bridge-LOC
+2	əgdi	əgdi	ADJ	_	Number=Plur	6	nsubj	_	Gloss=many
+3	ñ’aula	ñ’aula	NOUN	_	Number=Plur	6	nsubj	_	Gloss=boy
+4	sugʒä-wa	sugʒä	NOUN	_	Case=Acc	6	obj	_	Gloss=fish-ACC
+5	aki-si-ti	aki	VERB	_	Number=Plur|Person=3|VerbForm=Dur	6	advcl	_	Gloss=spear-DUR-3PL
+6	məimə-ʒi	məimə	NOUN	_	Case=Ins	0	root	_	SpaceAfter=No|Gloss=gig-INS
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Udihe_grammar_37
+# text = Bi ʒuk-tigi ii-ə-mi.
+# text[eng] = I reached the house.
+1	Bi	Bi	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
+2	ʒuk-tigi	ʒuk	NOUN	_	Deriv=Dir	3	obl	_	Gloss=house-DIR
+3	ii-ə-mi	ii	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=reach-PST-1SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Udihe_grammar_38
+# text = Bagdi-li-ə-mu bu uti ʒugdi-lə.
+# text[eng] = We began to live in this house.
+1	Bagdi-li-ə-mu	Bagdi	VERB	_	Aspect=Inc|Incl=Excl|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	Gloss=live-INC-PST-1PL.EXCL
+2	bu	bu	PRON	_	Incl=Excl|Number=Plur|Person=1|PronType=Prs	1	nsubj	_	Gloss=1PL.EXCL
+3	uti	uti	DET	_	PronType=Dem	4	det	_	Gloss=this
+4	ʒugdi-lə	ʒugdi	NOUN	_	Case=Loc	1	obl	_	SpaceAfter=No|Gloss=house-LOC
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Udihe_grammar_39
+# text = Əməgi-ə-si təluŋusi-ə-mu abugə-du.
+# text[eng] = Upon coming back we told (it) to our father.
+1	Əməgi-ə-si	Əməgi	VERB	_	Deriv=Rev|VerbForm=Part	4	advcl	_	Gloss=come-REV-PP-PC.SS
+2	təluŋusi-ə-mu	təluŋusi	VERB	_	Incl=Excl|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	Gloss=tell-PST-1PL.EXCL
+3	abugə-du	abugə	NOUN	_	Case=Dat	2	iobj	_	SpaceAfter=No|Gloss=father-DAT
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Udihe_grammar_40
+# text = Taː kä-la ña ic’e-i olondo-ziga bie.
+# text[eng] = There is another little ginseng root nearby.
+1	Taː	Taː	ADV	_	_	6	advmod	_	Gloss=there
+2	kä-la	kä	ADP	_	Case=Loc	6	obl	_	Gloss=near-LOC
+3	ña	ña	ADV	_	_	6	advmod	_	Gloss=again
+4	ic’e-i	ic’e	ADJ	_	Degree=Emp	6	amod	_	Gloss=small-EMPH
+5	olondo-ziga	olondo	NOUN	_	Deriv=DIM	6	nsubj	_	Gloss=ginseng-DIM
+6	bie	bie	VERB	_	Aspect=Hab|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=be.PRS.HAB
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Udihe_grammar_41
+# text = Uti zugu-ziga mine-wa iseːn-ziː kxxxx amädeː-ni.
+# text[eng] = When this young otter saw me, it started hissing and moved back.
+1	Uti	Uti	DET	_	PronType=Dem	3	det	_	Gloss=this
+2	zugu-ziga	zugu	NOUN	_	Deriv=DIM	3	nsubj	_	Gloss=otter-DIM
+3	mine-wa	mine	PRON	_	Number=Sing|Person=1|PronType=Prs	5	obj	_	Gloss=me-ACC
+4	iseːn-ziː	iseːn	VERB	_	Case=Ins|Deriv=SS|Tense=Past|VerbForm=Part	5	advcl	_	Gloss=see.PST.PTCP-INS.SS
+5	kxxxx	kxxxx	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=hiss-PST
+6	amädeː-ni	amädeː	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	SpaceAfter=No|Gloss=move.back-PST
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Udihe_grammar_42
+# text = nientileː-ni uti konz’o-ziga-i ɲic’a-i-ziga-i-de.
+# text[eng] = She opened her (jewellery) box, a small box.
+1	nientileː-ni	nientileː	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=open-PST-3SG
+2	uti	uti	DET	_	PronType=Dem	3	det	_	Gloss=that
+3	konz’o-ziga-i	konz’o	NOUN	_	Deriv=DIM|Reflex=Yes	1	obj	_	Gloss=chest-DIM-REFL
+4	ɲic’a-i-ziga-i-de	ɲic’a	ADJ	_	Degree=Emp|Deriv=DIM|Focus=Yes	3	amod	_	SpaceAfter=No|Gloss=small-EMPH-DIM-EMPH-FOC
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Udihe_grammar_43
+# text = Minti ba:-di-fi kuti wac'a bie, ñamahi ba:-du tene egdi. bie
+# text[eng] = There are few tigers in our forests, but in warm countries there are many of them.
+1	Minti	Minti	PRON	_	Incl=Excl|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	Gloss=we
+2	ba:-di-fi	ba:-di	ADP	_	Case=Dat|Deriv=IPL	5	obl	_	Gloss=place-DAT-IPL.IN
+3	kuti	kuti	NOUN	_	_	5	nsubj	_	Gloss=tiger
+4	wac'a	wac'a	ADJ	_	Degree=Pos	5	amod	_	Gloss=few
+5	bie	bie	VERB	_	Aspect=Hab|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=be.PRES.HAB
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	ñamahi	ñamahi	ADV	_	_	12	cc	_	Gloss=but
+8	ba:-du	ba:-du	ADP	_	Case=Dat	12	obl	_	Gloss=place-DAT
+9	tene	tene	ADV	_	_	12	advmod	_	Gloss=CONT
+10	egdi	egdi	ADJ	_	Degree=Pos	12	amod	_	SpaceAfter=No|Gloss=many
+11	.	.	PUNCT	_	_	5	punct	_	_
+12	bie	bie	VERB	_	Aspect=Hab|Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	Gloss=be.PRES.HAB
+
+# sent_id = Udihe_grammar_44
+# text = Kuti na:ηgi di:ηki-ni bihi-ni.
+# text[eng] = The tiger is similar in size to the Manchu bear.
+1	Kuti	Kuti	NOUN	_	_	4	nsubj	_	Gloss=tiger
+2	na:ηgi	na:ηgi	PROPN	_	_	4	obl	_	Gloss=manchu.bear
+3	di:ηki-ni	di:ηki	ADJ	_	Case=Nom|Number=Sing|Person=3	4	obl	_	Gloss=size-3SG
+4	bihi-ni	bihi	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=be-3SG
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Udihe_grammar_45
+# text = Iηakta-ni soligi-zi p'aligi-zi kede-ñeñe o:-i.
+# text[eng] = Its coat has orange and black stripes.
+1	Iηakta-ni	Iηakta	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nsubj	_	Gloss=fur-3SG
+2	soligi-zi	soligi	ADJ	_	Case=Ins	5	obl	_	Gloss=orange-INST
+3	p'aligi-zi	p'aligi	ADJ	_	Case=Ins	5	obl	_	Gloss=black-INST
+4	kede-ñeñe	kede	ADJ	_	Degree=Pos|Deriv=Stripy	5	amod	_	Gloss=stripy-ADJ
+5	o:-i	o:	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=make-PRP
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Udihe_grammar_46
+# text = Utenti mo:kt'oi o:kt'oi do-ni-ni ise uta-wa e-u-ji.
+# text[eng] = Hence it cannot be seen in the grass and bushes.
+1	Utenti	Utenti	ADV	_	_	5	discourse	_	Gloss=hence
+2	mo:kt'oi	mo:kt'oi	NOUN	_	_	5	obl	_	Gloss=bushes
+3	o:kt'oi	o:kt'oi	NOUN	_	_	5	obl	_	Gloss=grasses
+4	do-ni-ni	do	ADP	_	Case=Dat|Number=Sing|Person=3	5	obl	_	Gloss=inside-DAT-3SG
+5	ise	ise	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Pass	0	root	_	Gloss=see-NEG-PAS-3SG
+6	uta-wa	uta	DET	_	Case=Acc|PronType=Dem	5	obj	_	Gloss=that-ACC
+7	e-u-ji	e-u	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No|Gloss=NEG-PAS-PRP
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Udihe_grammar_47
+# text = Keige zugdi-du siηe-we wakca-ini, kahi ba: xuon-di-ni oloxi-we wakca-ini kuti tene nakta-wa wakca-ini ni: 'o-wo-ni mui-we jah-wa-da xoηto-wo-do wa-ini.
+# text[eng] = The cat hunts for mice in the house, the marten hunts for squirrels in the forest, and the tiger hunts for boars and kills men's domestic animals, horses, cows and others.
+1	Keige	Keige	NOUN	_	_	4	nsubj	_	Gloss=cat
+2	zugdi-du	zugdi	ADP	_	Case=Dat	4	obl	_	Gloss=house-DAT
+3	siηe-we	siηe	NOUN	_	Case=Acc	4	obj	_	Gloss=mouse-ACC
+4	wakca-ini	wakca	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=hunt-3SG
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	kahi	kahi	NOUN	_	_	9	nsubj	_	Gloss=marten
+7	ba:	ba:	ADP	_	Case=Loc	9	obl	_	Gloss=place
+8	xuon-di-ni	xuon	ADP	_	Case=Dat|Number=Sing|Person=3	9	obl	_	Gloss=top-DAT-3SG
+9	oloxi-we	oloxi	NOUN	_	Case=Acc	4	dep	_	Gloss=squirrel-ACC
+10	wakca-ini	wakca	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	Gloss=hunt-3SG
+11	kuti	kuti	NOUN	_	_	14	nsubj	_	Gloss=tiger
+12	tene	tene	ADV	_	_	14	advmod	_	Gloss=CONT
+13	nakta-wa	nakta	NOUN	_	Case=Acc	14	obj	_	Gloss=boar-ACC
+14	wakca-ini	wakca	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	Gloss=hunt-3SG
+15	ni:	ni:	NOUN	_	_	18	nsubj	_	Gloss=man
+16	'o-wo-ni	'o-wo	NOUN	_	Case=Acc|Number=Sing|Person=3	18	obj	_	Gloss=domestic.animal-ACC-3SG
+17	mui-we	mui	NOUN	_	Case=Acc	18	obj	_	Gloss=horse-ACC
+18	jah-wa-da	jah	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	Gloss=kill-3SG
+19	xoηto-wo-do	xoηto	NOUN	_	Case=Acc	18	obj	_	Gloss=cow-ACC
+20	wa-ini	wa	PRON	_	PronType=Prs	18	obj	_	SpaceAfter=No|Gloss=other-ACC
+21	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Udihe_grammar_48
+# text = Ni:-we-de wa-ini.
+# text[eng] = It also kills men.
+1	Ni:-we-de	Ni:	NOUN	_	Case=Acc|Focus=Yes	2	obj	_	Gloss=man-ACC-FOC
+2	wa-ini	wa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=kill-3SG
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Udihe_grammar_49
+# text = Slono-zi tene kuti ηele-ini.
+# text[eng] = But it is afraid of the elephant.
+1	Slono-zi	Slono	ADJ	_	Case=Ins	4	obl	_	Gloss=elephant-INST
+2	tene	tene	ADV	_	_	4	advmod	_	Gloss=CONT
+3	kuti	kuti	NOUN	_	_	4	nsubj	_	Gloss=tiger
+4	ηele-ini	ηele	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=be.afraid-3SG
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Udihe_grammar_50
+# text = Xoηto bua-tigi we:-le-mi kämbu-wasi-u-ji.
+# text[eng] = Crossing the mountain (going) to another place one makes a sacrifice.
+1	Xoηto	Xoηto	ADJ	_	_	2	obl	_	Gloss=other
+2	bua-tigi	bua	NOUN	_	Case=Lat	4	dep	_	Gloss=place-LAT
+3	we:-le-mi	we:	VERB	_	Mood=Ind|VerbForm=Fin	4	dep	_	Gloss=mountain-V-INF|VerbFormOrig=V
+4	kämbu-wasi-u-ji	kämbu	VERB	_	Mood=Ind|Polarity=Pos|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=sacrifice-DIS-PAS-PRP|VerbFormOrig=Dis
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Udihe_grammar_51
+# text = Kämbu-wasi-e-fi amä:-la-ni se:xi pahi-zi-ni xula-iti.
+# text[eng] = After making a sacrifice they tie a piece of cloth (to a tree).
+1	Kämbu-wasi-e-fi	Kämbu	VERB	_	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	Gloss=sacrifice-DIS-PP-SS|VerbFormOrig=Dis
+2	amä:-la-ni	amä:	ADV	_	Case=Loc|Number=Sing|Person=3	1	advmod	_	Gloss=after-LOC-3SG
+3	se:xi	se:xi	NOUN	_	_	4	obj	_	Gloss=cloth
+4	pahi-zi-ni	pahi	NUM	_	Case=Ins|Number=Sing|Person=3	5	obj	_	Gloss=piece-INST-3SG
+5	xula-iti	xula	VERB	_	Number=Plur|Person=3|Tense=Past	1	conj	_	SpaceAfter=No|Gloss=tie-3PL
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Udihe_grammar_52
+# text = Zie-we-ni xula-mi digan-a-iti.
+# text[eng] = While tying it on a crest of the mountain they speak.
+1	Zie-we-ni	zie	NOUN	_	Case=Acc|Number=Sing|Person=3	2	obj	_	Gloss=crest-ACC-3SG
+2	xula-mi	xula	VERB	_	VerbForm=Inf	3	advcl	_	Gloss=tie-INF
+3	digan-a-iti	digan	VERB	_	Number=Plur|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Gloss=say-0-3PL
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Udihe_grammar_53
+# text = Men-e na:-i zawa-iti xoηto uli-le ηene,
+# text[eng] = They take (pieces) of their earth and go to another place (literally: river).
+1	Men-e	men	PRON	_	Case=Ref|PronType=Prs	3	obj	_	Gloss=REF-0
+2	na:-i	na:	ADJ	_	Case=Ref	3	obl	_	Gloss=earth-REF
+3	zawa-iti	zawa	VERB	_	Number=Plur|Person=3|Tense=Past	0	root	_	Gloss=take-3PL
+4	xoηto	xoηto	DET	_	PronType=Dem	6	det	_	Gloss=other
+5	uli-le	uli	VERB	_	VerbForm=Inf	3	advcl	_	Gloss=go-INF
+6	ηene	ηene	NOUN	_	Case=Loc	3	obl	_	SpaceAfter=No|Gloss=river-LOC
+7	,	,	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Udihe_grammar_54
+# text = Uli-we umi-le-mi men-e na:-ηi-zi soli:-ti sogil'a-si umi:-ti emugde-i e-lege-ni
+# text[eng] = Drinking water they mix it with their earth, they drink it after having mixed it so that the stomach does not hurt.
+1	Uli-we	uli	NOUN	_	Case=Acc	5	obj	_	Gloss=water-ACC
+2	umi-le-mi	umi	VERB	_	VerbForm=Inf	5	advcl	_	Gloss=drink-INF
+3	men-e	men	PRON	_	Case=Ref|PronType=Prs	5	obl	_	Gloss=REF-0
+4	na:-ηi-zi	na:	ADJ	_	Case=All	5	obl	_	Gloss=earth-AL-INST.REF|FEATSOrig=Instr.Ref
+5	soli:-ti	soli	VERB	_	Number=Plur|Person=3|Tense=Past	0	root	_	Gloss=mix-3PL
+6	sogil'a-si	sogil'a	VERB	_	VerbForm=Part	5	advcl	_	Gloss=mix-PERF-PC.SS|VerbFormOrig=PC.SS
+7	umi:-ti	umi	VERB	_	Number=Plur|Person=3|Tense=Past	5	conj	_	Gloss=drink-3PL
+8	emugde-i	emugde	PRON	_	Case=Ref|PronType=Prs	7	obj	_	Gloss=stomach-REF
+9	e-lege-ni	e	VERB	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Purp	7	dep	_	_
+
+# sent_id = Udihe_grammar_55
+# text = Kämbuga wo-iti.
+# text[eng] = They make an altar.
+1	Kämbuga	Kämbuga	NOUN	_	Case=Acc	2	obj	_	Gloss=altar
+2	wo-iti	wo	VERB	_	Number=Plur|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Gloss=make-3PL
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Udihe_grammar_56
+# text = Adi ni: bi-mi adi-me wo-iti.
+# text[eng] = How many people there are, so many they make.
+1	Adi	Adi	PRON	_	PronType=Prs	4	nsubj	_	Gloss=how.many
+2	ni:	ni:	PRON	_	Case=Acc|PronType=Prs	4	obj	_	Gloss=man-ACC
+3	bi-mi	bi	VERB	_	VerbForm=Inf	4	advcl	_	Gloss=be-INF
+4	adi-me	adi	PRON	_	Case=Acc|PronType=Prs	5	obj	_	Gloss=how.many-ACC
+5	wo-iti	wo	VERB	_	Number=Plur|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Gloss=make-3PL
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Udihe_grammar_57
+# text = Kämbuga zolo-ni zaηa nede-iti jalah uta-digi zeu-we 'apti: nede-iti.
+# text[eng] = They put hot coal on the altar stone, then they put their food, their provisions.
+1	Kämbuga	Kämbuga	NOUN	_	Case=Acc	4	obl	_	Gloss=altar
+2	zolo-ni	zolo	NOUN	_	Number=Sing|Person=3	4	obl	_	Gloss=stone-3SG
+3	zaηa	zaηa	NOUN	_	_	4	obl	_	Gloss=coal
+4	nede-iti	nede	VERB	_	Number=Plur|Person=3|Tense=Past	0	root	_	Gloss=put-3PL
+5	jalah	jalah	PUNCT	_	_	4	punct	_	_
+6	uta-digi	uta	PRON	_	Case=Abl|PronType=Prs	4	obl	_	Gloss=that-ABL
+7	zeu-we	zeu	NOUN	_	Case=Acc	9	obj	_	Gloss=food-ACC
+8	'apti:	'apti:	PRON	_	Case=Ref|PronType=Prs	9	obj	_	Gloss=provisions.REF
+9	nede-iti	nede	VERB	_	Number=Plur|Person=3|Tense=Past	4	conj	_	SpaceAfter=No|Gloss=put-3PL
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Udihe_grammar_58
+# text = Bua-tigi digan-a-m(i) digan-a-m(i) kesi geli:-ti.
+# text[eng] = They talk to God, ask for luck.
+1	Bua-tigi	Bua	NOUN	_	Case=Lat	5	obl	_	Gloss=place-LAT
+2	digan-a-m(i)	digan	VERB	_	VerbForm=Inf	5	advcl	_	Gloss=say-O-INF
+3	digan-a-m(i)	digan	VERB	_	VerbForm=Inf	5	advcl	_	Gloss=say-O-INF
+4	kesi	kesi	NOUN	_	_	5	obj	_	Gloss=luck
+5	geli:-ti	geli	VERB	_	Number=Plur|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Gloss=ask-3PL
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Udihe_grammar_59
+# text = Ni: xeηki:-ni.
+# text[eng] = People are bowing.
+1	Ni:	ni:	NOUN	_	_	2	nsubj	_	Gloss=man
+2	xeηki:-ni	xeηki	VERB	_	Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No|Gloss=bow-3SG
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Udihe_grammar_60
+# text = Sukpai b'äsa-du-ni ba: xo:n-du-ni omo-s'o-go sita bagdi-e-ni.
+# text[eng] = On the river Sukpai in the taiga a child was born.
+1	Sukpai	Sukpai	PROPN	_	_	5	obl	_	Gloss=Sukpai
+2	b'äsa-du-ni	b'äsa	ADP	_	Case=Dat|Number=Sing|Person=3	1	case	_	Gloss=river-DAT-3SG
+3	ba:	ba:	NOUN	_	_	5	obl	_	Gloss=place
+4	xo:n-du-ni	xo:n	ADP	_	Case=Dat|Number=Sing|Person=3	3	case	_	Gloss=top-DAT-3SG
+5	omo-s'o-go	omo	NOUN	_	_	6	nsubj	_	Gloss=child
+6	sita bagdi-e-ni	sita bagdi	VERB	_	Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Gloss=be.born-PAST-3SG
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Udihe_grammar_61
+# text = Okto-mo jat'au-du gekti-mi bagdi-e-ni c̆ind'a dieli-mi gekti-du bagdi-e-ni.
+# text[eng] = He was born frozen in a birth tent, in the cold time when birds are flying away.
+1	Okto-mo	Okto	ADJ	_	_	4	obl	_	Gloss=grass-ADJ
+2	jat'au-du	jat'au	ADP	_	Case=Dat	1	case	_	Gloss=birth.tent-DAT
+3	gekti-mi	gekti	VERB	_	VerbForm=Inf	4	advcl	_	Gloss=freeze-INF
+4	bagdi-e-ni	bagdi	VERB	_	Number=Sing|Person=3|Tense=Past	0	root	_	Gloss=live-PAST-3SG
+5	c̆ind'a	c̆ind'a	NOUN	_	_	8	nsubj	_	Gloss=bird
+6	dieli-mi	dieli	VERB	_	VerbForm=Inf	8	advcl	_	Gloss=fly-INF
+7	gekti-du	gekti	ADP	_	Case=Dat	8	obl	_	Gloss=freeze-DAT
+8	bagdi-e-ni	bagdi	VERB	_	Number=Sing|Person=3|Tense=Past	4	conj	_	SpaceAfter=No|Gloss=live-PAST-3SG
+9	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Udihe_grammar_62
+# text = Eni-ni tege-di: kapt'a-si zugdi-tigi gazi-e-ni.
+# text[eng] = His mother brought him home having wrapped him in her clothes.
+1	Eni-ni	Eni	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Gloss=mother-3SG
+2	tege-di:	tege	ADP	_	Case=Dat	4	obl	_	Gloss=gown-DAT.REF
+3	kapt'a-si	kapt'a	VERB	_	Aspect=Perf|VerbForm=Part	4	advcl	_	Gloss=wrap-PERF-PC.SS|VerbFormOrig=PC
+4	zugdi-tigi	zugdi	ADP	_	Case=Loc	5	obl	_	Gloss=house-LAT
+5	gazi-e-ni	gazi	VERB	_	Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Gloss=bring-PAST-3SG
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Udihe_grammar_63
+# text = Uti b'ata-wa Zuaηc̆i-zi gegbi-ηi-e-ti.
+# text[eng] = They named this boy Zuanchi.
+1	Uti	Uti	PRON	_	PronType=Prs	4	det	_	Gloss=that
+2	b'ata-wa	b'ata	NOUN	_	Case=Acc	4	obj	_	Gloss=boy-ACC
+3	Zuaηc̆i-zi	Zuaηc̆i	PROPN	_	Case=Ins	4	obl	_	Gloss=Zuanchi-INST
+4	gegbi-ηi-e-ti	gegbi	VERB	_	Aspect=Repetitive|Number=Plur|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Gloss=call-REP-PAST-3PL
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Udihe_grammar_64
+# text = Kesi-mi zogbo-mi bagdi-e-ni zua sugdä-wa diga-mie tue ule-we diga-mie ute bede ni:-ne-ni.
+# text[eng] = He lived in sufferings and troubles, in summer he was eating fish, in winter meat, as did (all) his people.
+1	Kesi-mi	kesi	VERB	_	VerbForm=Inf	4	advcl	_	Gloss=suffer-INF
+2	zogbo-mi	zogbo	VERB	_	VerbForm=Inf	4	advcl	_	Gloss=trouble-INF
+3	bagdi-e-ni	bagdi	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=live-PAST-3SG
+4	zua	zua	NOUN	_	_	3	obl	_	Gloss=summer
+5	sugdä-wa	sugdä	NOUN	_	Case=Acc	6	obj	_	Gloss=fish-ACC
+6	diga-mie	diga	VERB	_	VerbForm=Inf	3	advcl	_	Gloss=eat-INF
+7	tue	tue	NOUN	_	_	8	obl	_	Gloss=winter
+8	ule-we	ule	NOUN	_	Case=Acc	9	obj	_	Gloss=meat-ACC
+9	diga-mie	diga	VERB	_	VerbForm=Inf	3	advcl	_	Gloss=eat-INF
+10	ute	ute	PRON	_	PronType=Prs	9	obl	_	Gloss=that
+11	bede	bede	NOUN	_	Number=Plur	12	nsubj	_	Gloss=man-PL
+12	ni:-ne-ni	ni	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	SpaceAfter=No|Gloss=do-3SG
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Udihe_grammar_65
+# text = Imexi koli odo-isi-ni sagdi xoto tatusi-ne:-ni.
+# text[eng] = When the new power came he went to study in a large city.
+1	Imexi	imexi	NOUN	_	_	3	nsubj	_	Gloss=new
+2	koli	koli	NOUN	_	_	1	compound	_	Gloss=law
+3	odo-isi-ni	odo	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=become-PC-3SG
+4	sagdi	sagdi	NOUN	_	Case=Acc	5	obj	_	Gloss=large
+5	xoto	xoto	NOUN	_	Case=Loc	3	obl	_	Gloss=city-LOC
+6	tatusi-ne:-ni	tatusi	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	SpaceAfter=No|Gloss=study-DIR-3SG
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Udihe_grammar_66
+# text = Tatusi-ge-si eme-gi-e-ni men-e bagdi-e-mi kese-kce:-mi zei-tigi: uti getu-we tatusi-ne-gi-e-ni.
+# text[eng] = After study he returned to the people with whom he lived suffering, he went to teach them.
+1	Tatusi-ge-si	tatusi	VERB	_	Aspect=Perf|Mood=Ind|VerbForm=Fin	3	advcl	_	Gloss=study-PERF-PC.SS|VoiceOrig=PC.SS
+2	eme-gi-e-ni	eme	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=come-REP-PAST-3SG
+3	men-e	men	PRON	_	PronType=Prs	2	obj	_	Gloss=REF-0
+4	bagdi-e-mi	bagdi	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	Gloss=live-PP-REF
+5	kese-kce:-mi	kese	VERB	_	Aspect=Dur|VerbForm=Part	2	advcl	_	Gloss=suffer-DUR.PP-REF|VerbFormOrig=PP-REF
+6	zei-tigi:	zei	NOUN	_	Case=Lat|Number=Plur	4	obl	_	Gloss=kinsman-LAT.REF
+7	uti	uti	PRON	_	PronType=Prs	4	obj	_	Gloss=that
+8	getu-we	getu	PRON	_	Number=Plur|PronType=Prs	4	obj	_	Gloss=PL-ACC
+9	tatusi-ne-gi-e-ni	tatusi	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No|Gloss=teach-DIR-REP-PAST-3SG
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Udihe_grammar_67
+# text = Men-e ni:-fi zuleixi ηeηe-le:-ηί tatusi-ne:-ni.
+# text[eng] = He went to teach his people so that they would go forwards.
+1	Men-e	men	PRON	_	PronType=Prs	4	nsubj	_	Gloss=REF-0
+2	ni:-fi	ni	NOUN	_	Number=Plur	4	obj	_	Gloss=man-REF.PL
+3	zuleixi	zuleixi	ADV	_	_	4	advmod	_	Gloss=forwards
+4	ηeηe-le:-ηί	ηeηe	VERB	_	Mood=Purp|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=go-PURP-3SG
+5	tatusi-ne:-ni	tatusi	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	SpaceAfter=No|Gloss=teach-DIR.PAST-3SG
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Udihe_grammar_68
+# text = Niηka-ziga bagdi-e-ti.
+# text[eng] = The Chinese lived.
+1	Niηka-ziga	Niηka	PROPN	_	Number=Plur	2	nsubj	_	Gloss=Chinese-PL
+2	bagdi-e-ti	bagdi	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=live-PAST-3PL
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Udihe_grammar_69
+# text = Namu bugasa-tigi-ni eze-ti igbe:-ni wa-zaηa-zi igbe:-ni omo miηga ni:-we xatala-wa ninta-wa men-e c̆awa-i.
+# text[eng] = Their tsar drove away to a sea island one thousand people, men, girls, women, and his army, because (otherwise) they had to be killed.
+1	Namu	namu	NOUN	_	_	5	obl	_	Gloss=sea
+2	bugasa-tigi-ni	bugasa	ADJ	_	Case=Lat|Number=Sing|Person=3	5	obl	_	Gloss=island-LAT-3SG
+3	eze-ti	eze	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=tsar-3PL
+4	igbe:-ni	igbe	PROPN	_	Case=Lat|Number=Sing	3	obl	_	Gloss=island-LOC
+5	wa-zaηa-zi	wa-zaηa	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	conj	_	Gloss=kill-FUT
+6	igbe:-ni	igbe	PROPN	_	Case=Loc|Number=Sing	5	obl	_	Gloss=island-LOC
+7	omo	omo	NUM	_	_	8	nummod	_	Gloss=one
+8	miηga	miηga	NOUN	_	_	9	nummod	_	Gloss=thousand
+9	ni:-we	ni	PROPN	_	Case=Acc|Number=Plur	5	obj	_	Gloss=man-ACC
+10	xatala-wa	xatala	NOUN	_	Case=Acc	5	obj	_	Gloss=girl-ACC
+11	ninta-wa	ninta	NOUN	_	Case=Acc	5	obj	_	Gloss=woman-ACC
+12	men-e	men	PRON	_	PronType=Prs	13	nsubj	_	Gloss=REF-0
+13	c̆awa-i	c̆awa	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No|Gloss=army-REF
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Udihe_grammar_70
+# text = Uti getu men-e seh-zi: bagdi-li-e-ti ibene odo:-ti.
+# text[eng] = They started to live in their own clans and become Japanese.
+1	Uti	uti	DET	_	PronType=Dem	4	det	_	Gloss=that
+2	getu	getu	PRON	_	Number=Plur|PronType=Prs	4	nsubj	_	Gloss=PL
+3	men-e	men	PRON	_	PronType=Prs	4	obj	_	Gloss=REF-0
+4	seh-zi:	seh	PROPN	_	Case=Ins|Number=Plur	5	obl	_	Gloss=clan-INST.REF
+5	bagdi-li-e-ti	bagdi	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=live-INC-PAST-3PL
+6	ibene	ibene	ADJ	_	_	7	obl	_	Gloss=Japanese
+7	odo:-ti	odo	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	SpaceAfter=No|Gloss=become.PAST-3PL
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Udihe_grammar_71
+# text = Udie bede kawa-ηisi-mi. bagdi-li-e-ti
+# text[eng] = They started living like the Udihe, making (grass) tents.
+1	Udie	Udie	PROPN	_	_	5	nsubj	_	Gloss=Udihe
+2	bede	bede	ADJ	_	_	5	advmod	_	Gloss=like
+3	kawa-ηisi-mi	kawa-ηisi	VERB	_	VerbForm=Inf	5	advcl	_	SpaceAfter=No|Gloss=make-V-INF
+4	.	.	PUNCT	_	_	5	punct	_	_
+5	bagdi-li-e-ti	bagdi	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=live-INC-PAST-3PL
+
+# sent_id = Udihe_grammar_72
+# text = Amäixi dau-mi w'ali-la-fai. e-si-ti
+# text[eng] = They couldn't go back across (the sea) in order to fight.
+1	Amäixi	Amäixi	ADV	_	_	5	advmod	_	Gloss=backwards
+2	dau-mi	dau	VERB	_	VerbForm=Inf	5	advcl	_	Gloss=cross-INF
+3	w'ali-la-fai	w'ali-la-fai	VERB	_	Mood=Ind|VerbForm=Fin	5	advcl	_	SpaceAfter=No|Gloss=fight-PURP-SS.PL|VerbFormOrig=SS.PL
+4	.	.	PUNCT	_	_	5	punct	_	_
+5	e-si-ti	e-si	VERB	_	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	Gloss=NEG-PAST-3PL
+
+# sent_id = Udihe_grammar_73
+# text = Men-e gu:-zi men-e bagdi-li-e-ti
+# text[eng] = They started living in their own way by themselves.
+1	Men-e	men	PRON	_	PronType=Prs	4	dep	_	Gloss=REF-0
+2	gu:-zi	gu:-zi	NOUN	_	_	4	dep	_	Gloss=way.of.life-INST.REF
+3	men-e	men	PRON	_	PronType=Prs	4	dep	_	Gloss=REF-0
+4	bagdi-li-e-ti	bagdi	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=live-INC-PAST-3PL
+
+# sent_id = Udihe_grammar_74
+# text = Ogbö e:xi zuηe bagdi-e-ti
+# text[eng] = Once upon a time there lived an Elk and a Frog.
+1	Ogbö	Ogbö	PROPN	_	_	4	dep	_	Gloss=elk
+2	e:xi	e:xi	PROPN	_	_	4	dep	_	Gloss=frog
+3	zuηe	zuηe	DET	_	PronType=Dem	1	advmod	_	Gloss=both
+4	bagdi-e-ti	bagdi	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=live-PAST-3PL
+
+# sent_id = Udihe_grammar_75
+# text = Ge ogbö gun-e-ini Geinige-ze-fi e:xe-i min-zuηe
+# text[eng] = Well, the Elk said: "Frog, let us compete (in running) against each other."
+1	Ge	ge	ADV	_	_	3	discourse	_	Gloss=well
+2	ogbö	ogbö	PROPN	_	_	3	nsubj	_	Gloss=elk
+3	gun-e-ini	gun	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=say-0-3SG
+4	Geinige-ze-fi	geinige	VERB	_	Mood=Subj|Number=Plur|Person=1|VerbForm=Fin	3	ccomp	_	Gloss=compete-SUBJ-lPL.IN
+5	e:xe-i	e:xe	PROPN	_	_	4	nsubj	_	Gloss=frog
+6	min-zuηe	mi-zuηe	PRON	_	PronType=Prs	4	obj	_	Gloss=me-both
+
+# sent_id = Udihe_grammar_76
+# text = Tukä-za-fi sagdi namu egelie ηic'a namu egelie
+# text[eng] = Let us run around the big sea, and around the small sea.
+1	Tukä-za-fi	tukä-za	VERB	_	Mood=Subj|Number=Plur|Person=1|VerbForm=Fin	0	root	_	Gloss=run-SUBJ-lPL.IN
+2	sagdi	sagdi	ADJ	_	_	1	obl	_	Gloss=big
+3	namu	namu	NOUN	_	_	4	compound	_	Gloss=sea
+4	egelie	egelie	VERB	_	_	1	obl	_	Gloss=around
+5	ηic'a	ηic'a	ADJ	_	_	6	obl	_	Gloss=small
+6	namu	namu	NOUN	_	_	1	obl	_	Gloss=sea
+7	egelie	egelie	VERB	_	_	1	obl	_	Gloss=around
+
+# sent_id = Udihe_grammar_77
+# text = Ge tukä-za
+# text[eng] = "Well, let us run!"
+1	Ge	ge	ADV	_	_	2	discourse	_	Gloss=well
+2	tukä-za	tukä-za	VERB	_	Mood=Subj|Number=Plur|Person=1|VerbForm=Fin	0	root	_	Gloss=run-SUBJ
+
+# sent_id = Udihe_grammar_78
+# text = Gulini-e-ti-de
+# text[eng] = They left.
+1	Gulini-e-ti-de	gulini	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=go-PAST-3PL-FOC
+
+# sent_id = Udihe_grammar_79
+# text = E:xi-gde xetige-ηi-e-ni ogbö xeje-tigi-ni
+# text[eng] = And the Frog jumped on the Elk's forehead.
+1	E:xi-gde	e:xi	PROPN	_	_	2	nsubj	_	Gloss=frog-CONT
+2	xetige-ηi-e-ni	xetige	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=jump-REP-PAST-3SG
+3	ogbö	ogbö	PROPN	_	_	2	obj	_	Gloss=elk
+4	xeje-tigi-ni	xeje-tigi	NOUN	_	_	2	obl:loc	_	Gloss=forehead-LAT-3SG
+
+# sent_id = Udihe_grammar_80
+# text = Ogbö tukä:-nie
+# text[eng] = The Elk ran.
+1	Ogbö	ogbö	PROPN	_	_	2	nsubj	_	Gloss=elk
+2	tukä:-nie	tukä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=run-PAST-3SG
+
+# sent_id = Udihe_grammar_81
+# text = Läsi tukä:-ni tukä:-ni
+# text[eng] = It was running very much.
+1	Läsi	läsi	ADV	_	_	2	advmod	_	Gloss=very
+2	tukä:-ni	tukä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=run-PAST-3SG
+3	tukä:-ni	tukä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	Gloss=run-PAST-3SG
+
+# sent_id = Udihe_grammar_82
+# text = Tukä:-nie
+# text[eng] = It was running.
+1	Tukä:-nie	tukä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=run-PAST-3SG
+
+# sent_id = Udihe_grammar_83
+# text = Deu-mi eke:-ni
+# text[eng] = It got tired and stopped.
+1	Deu-mi	deu	VERB	_	VerbForm=Inf	2	advcl	_	Gloss=get.tired-INF
+2	eke:-ni	eke	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=stop-PAST-3SG
+
+# sent_id = Udihe_grammar_84
+# text = eke-isi uti ekindi-ni-deli e:xi xeje-digi-ni xetige-ne:-ni
+# text[eng] = When it stopped, the Frog jumped from its forehead.
+1	eke-isi	eke	VERB	_	VerbForm=Part	5	advcl	_	Gloss=stop-PC|VerbFormOrig=PC
+2	uti	uti	DET	_	PronType=Dem	5	det	_	Gloss=that
+3	ekindi-ni-deli	ekindi	SCONJ	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	mark	_	Gloss=when-3SG-CONT
+4	e:xi	e:xi	PROPN	_	_	5	nsubj	_	Gloss=frog
+5	xeje-digi-ni	xeje	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=jump-DIR-PAST-3SG
+6	xetige-ne:-ni	xetige	ADP	_	_	5	obl:abl	_	Gloss=forehead-ABL-3SG
+
+# sent_id = Udihe_grammar_85
+# text = Ogbö diaη-ki-ni E:xie-i
+# text[eng] = The Elk said: "Frog!"
+1	Ogbö	ogbö	PROPN	_	_	2	nsubj	_	Gloss=elk
+2	diaη-ki-ni	diaη	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=say-PAST-3SG
+3	E:xie-i	e:xie	PROPN	_	_	2	discourse	_	Gloss=frog-VOC
+
+# sent_id = Udihe_grammar_86
+# text = Aja ketu maqga bi: si
+# text[eng] = "Well, you are very strong."
+1	Aja	aja	INTJ	_	_	5	discourse	_	Gloss=well
+2	ketu	ketu	ADV	_	_	5	advmod	_	Gloss=very
+3	maqga	maqga	ADJ	_	_	5	amod	_	Gloss=strong
+4	bi:	bi:	PRON	_	PronType=Prs	5	nsubj	_	Gloss=you
+5	si	si	VERB	_	Mood=Ind|Number=Sing|Person=2|VerbForm=Fin	0	root	_	Gloss=be-2SG
+
+# sent_id = Udihe_grammar_87
+# text = bi geje eme-gi-e-i
+# text[eng] = You came here together with me.
+1	bi	bi	PRON	_	PronType=Prs	3	dep	_	Gloss=me
+2	geje	geje	ADP	_	_	3	dep	_	Gloss=with
+3	eme-gi-e-i	eme	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	0	root	_	Gloss=come-REP-PAST-2SG
+
+# sent_id = Udihe_grammar_88
+# text = ge ña guline-ze-fi
+# text[eng] = Well, let us go again!
+1	ge	ge	ADV	_	_	3	dep	_	Gloss=well
+2	ña	ña	ADV	_	_	3	dep	_	Gloss=again
+3	guline-ze-fi	guline	VERB	_	Mood=Subj|Number=Plur|Person=1|VerbForm=Fin	0	root	_	Gloss=go-SUBJ-lPL.IN
+
+# sent_id = Udihe_grammar_89
+# text = E:xi ña xetige-ηi-e-ni xeje-tigi-ni
+# text[eng] = The Frog jumped again onto its forehead.
+1	E:xi	e:xi	PROPN	_	_	4	nsubj	_	Gloss=frog
+2	ña	ña	ADV	_	_	4	advmod	_	Gloss=again
+3	xetige-ηi-e-ni	xetige	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=jump-REP-PAST-3SG
+4	xeje-tigi-ni	xeje	PROPN	_	_	3	obl	_	Gloss=forehead-LAT-3SG
+
+# sent_id = Udihe_grammar_90
+# text = ge ña ogbö tukä:-ni loηcoligi loηcoligi
+# text[eng] = Well, the long legged Elk ran off again.
+1	ge	ge	ADV	_	_	4	discourse	_	Gloss=well
+2	ña	ña	ADV	_	_	4	advmod	_	Gloss=again
+3	ogbö	ogbö	PROPN	_	_	4	nsubj	_	Gloss=elk
+4	tukä:-ni	tukä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=run-PAST-3SG
+5	loηcoligi	loηcoligi	ADJ	_	_	3	amod	_	Gloss=long.legged
+6	loηcoligi	loηcoligi	ADJ	_	_	5	amod	_	Gloss=long.legged
+
+# sent_id = Udihe_grammar_91
+# text = ña i:-le-dele eke:-ni
+# text[eng] = It stopped again somewhere.
+1	ña	ña	ADV	_	_	3	advmod	_	Gloss=again
+2	i:-le-dele	i:-le	PRON	_	PronType=Prs	3	obl	_	Gloss=what-LOC-IND
+3	eke:-ni	eke	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=stop-PAST-3SG
+
+# sent_id = Udihe_grammar_92
+# text = Aja imemu ei e:xi e-ini
+# text[eng] = "Oh, this Frog will not drop off!"
+1	Aja	aja	INTJ	_	_	5	discourse	_	Gloss=well
+2	imemu	imemu	PRON	_	PronType=Prs	5	obj	_	Gloss=this
+3	ei	ei	PRON	_	PronType=Prs	5	nsubj	_	Gloss=frog
+4	e:xi	e:xi	VERB	_	_	5	nsubj	_	Gloss=frog
+5	e-ini	e	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	0	root	_	Gloss=NEG-3SG
+
+# sent_id = Udihe_grammar_93
+# text = ña ei-tene gulini-e-ni
+# text[eng] = Then it went again.
+1	ña	ña	ADV	_	_	3	advmod	_	Gloss=again
+2	ei-tene	ei-tene	ADV	_	_	3	advmod	_	Gloss=now-CONT
+3	gulini-e-ni	gulini	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=go-PAST-3SG
+
+# sent_id = Udihe_grammar_94
+# text = ele atana-mi ogbö bude:-nie
+# text[eng] = Soon the Elk collapsed exhausted and died.
+1	ele	ele	ADV	_	_	4	advmod	_	Gloss=soon
+2	atana-mi	atana	VERB	_	VerbForm=Inf	4	advcl	_	Gloss=be.out.of.breath-INF
+3	ogbö	ogbö	PROPN	_	_	4	nsubj	_	Gloss=elk
+4	bude:-nie	bude	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=die-PAST-3SG
+
