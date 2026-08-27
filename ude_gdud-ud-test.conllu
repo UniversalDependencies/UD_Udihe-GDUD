@@ -134,7 +134,7 @@
 1	Mənə	Mənə	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Gloss=REFL
 2	aka-la-i	aka	NOUN	_	Case=Loc	3	obl	_	Gloss=back-LOC-SS
 3	sindagi-a-ni	sindagi	VERB	_	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=put.as.backpack-PST-3SG
-4	b’ata-wa	b’ata	NOUN	_	Case=Acc|Number=Sing	3	obj	_	Gloss=boy-ACC
+4	b’ata-wa	b’ata	NOUN	_	Case=Acc|Number=Sing	5	nmod	_	Gloss=boy-ACC
 5	əmugə	əmugə	NOUN	_	_	3	obj	_	Gloss=cradle
 6	giə⸗də	giə⸗də	ADP	_	_	5	case	_	SpaceAfter=No|Gloss=COMIT-FOC
 7	.	.	PUNCT	_	_	3	punct	_	_
