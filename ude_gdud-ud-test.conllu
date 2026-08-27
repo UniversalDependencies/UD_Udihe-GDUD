@@ -53,22 +53,22 @@
 # sent_id = Udihe_grammar_8
 # text = Ələhə bua-du uli-lə bukki o-si-ni buniga-tigi tukəä-mə ŋənə-ini.
 # text[eng] = If somebody has drowned far away (in another place) he comes to the underworld running.
-1	Ələhə	Ələhə	ADV	_	_	5	advmod	_	Gloss=other
-2	bua-du	bua	NOUN	_	Case=Dat	5	obl	_	Gloss=place-DAT
-3	uli-lə	uli	NOUN	_	Case=Loc	5	obl	_	Gloss=river-LOC
-4	bukki	bukki	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	Gloss=die-PST-3SG
-5	o-si-ni	o	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=do-PST-3SG
-6	buniga-tigi	buniga	NOUN	_	_	5	obl	_	Gloss=underworld-DIR|Deriv=Dir
-7	tukəä-mə	tukəä	VERB	_	VerbForm=Ger	5	advcl	_	Gloss=run-GER
-8	ŋənə-ini	ŋənə	VERB	_	Mood=Ind|Number=Sing|Person=3|VerbForm=Fin	5	conj	_	SpaceAfter=No|Gloss=go-3SG
-9	.	.	PUNCT	_	_	5	punct	_	_
+1	Ələhə	Ələhə	ADV	_	_	4	advmod	_	Gloss=other
+2	bua-du	bua	NOUN	_	Case=Dat	4	obl	_	Gloss=place-DAT
+3	uli-lə	uli	NOUN	_	Case=Loc	4	obl	_	Gloss=river-LOC
+4	bukki	bukki	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	advcl	_	Gloss=die-PST-3SG
+5	o-si-ni	o	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	Gloss=do-PST-3SG
+6	buniga-tigi	buniga	NOUN	_	_	8	obl	_	Gloss=underworld-DIR|Deriv=Dir
+7	tukəä-mə	tukəä	VERB	_	VerbForm=Ger	8	advcl	_	Gloss=run-GER
+8	ŋənə-ini	ŋənə	VERB	_	Mood=Ind|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=go-3SG
+9	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = Udihe_grammar_9
 # text = Min-du omo gaa-wa bu-jə.
 # text[eng] = Give me one branch (of bird-cherry).
-1	Min-du	Min	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	_	Gloss=1SG-DAT
-2	omo	omo	NUM	_	NumType=Card	5	nummod	_	Gloss=one
-3	gaa-wa	gaa	NOUN	_	Case=Acc	5	obj	_	Gloss=branch-ACC
+1	Min-du	Min	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	Gloss=1SG-DAT
+2	omo	omo	NUM	_	NumType=Card	3	nummod	_	Gloss=one
+3	gaa-wa	gaa	NOUN	_	Case=Acc	4	obj	_	Gloss=branch-ACC
 4	bu-jə	bu	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=give-IMP
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -132,7 +132,7 @@
 # text = Mənə aka-la-i sindagi-a-ni b’ata-wa əmugə giə⸗də.
 # text[eng] = She put the cradle with the child on her back.
 1	Mənə	Mənə	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Gloss=REFL
-2	aka-la-i	aka	ADV	_	Case=Loc	5	obl	_	Gloss=back-LOC-SS
+2	aka-la-i	aka	ADV	_	Case=Loc	5	nmod	_	Gloss=back-LOC-SS
 3	sindagi-a-ni	sindagi	NOUN	_	Case=Acc|Number=Sing	5	obj	_	Gloss=put.as.backpack-PST-3SG
 4	b’ata-wa	b’ata	NOUN	_	Case=Acc|Number=Sing	5	obj	_	Gloss=boy-ACC
 5	əmugə	əmugə	NOUN	_	_	0	root	_	Gloss=cradle
@@ -159,9 +159,9 @@
 # sent_id = Udihe_grammar_19
 # text = Bəliə diəli-kca-mi kuga-la lafa-a-ni.
 # text[eng] = The girl trying to fly away got stuck inside the smoke duct.
-1	Bəliə	Bəliə	NOUN	_	Number=Sing	5	nsubj	_	Gloss=girl
-2	diəli-kca-mi	diəli	VERB	_	Aspect=Prosp|VerbForm=Ger	5	acl	_	Gloss=fly-PRO-GER
-3	kuga-la	kuga	NOUN	_	Case=Loc	5	obl	_	Gloss=smoke.duct-LOC
+1	Bəliə	Bəliə	NOUN	_	Number=Sing	4	nsubj	_	Gloss=girl
+2	diəli-kca-mi	diəli	VERB	_	Aspect=Prosp|VerbForm=Ger	4	acl	_	Gloss=fly-PRO-GER
+3	kuga-la	kuga	NOUN	_	Case=Loc	4	obl	_	Gloss=smoke.duct-LOC
 4	lafa-a-ni	lafa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=get.stuck-PST-3SG
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -231,7 +231,7 @@
 # text = Aja ʒugdi-lə ŋua-nə-jə-hu Ŋənə-hə-ti ʒugdi-du aŋasi-ha-ti.
 # text[eng] = “Well, let us go to sleep in the house!” They went and spent the night in the house.
 1	Aja	Aja	INTJ	_	_	5	discourse	_	Gloss=ok
-2	ʒugdi-lə	ʒugdi	NOUN	_	Case=Loc	5	obl	_	Gloss=house-LOC
+2	ʒugdi-lə	ʒugdi	NOUN	_	Case=Loc	5	nmod	_	Gloss=house-LOC
 3	ŋua-nə-jə-hu	ŋua	VERB	_	Mood=Ind|Number=Plur|Person=2|VerbForm=Imp	5	advcl	_	Gloss=sleep-AND-IMP-2PL|Deriv=And
 4	Ŋənə-hə-ti	Ŋənə	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=go-PST-3PL
 5	ʒugdi-du	ʒugdi	NOUN	_	Case=Dat	4	obl	_	Gloss=house-DAT
@@ -265,9 +265,9 @@
 # sent_id = Udihe_grammar_31
 # text = Ot’osi⸗tənə ʒaŋgä ʒugdi-lə-ni iigi-hə-ti.
 # text[eng] = Then they entered the house of the superior.
-1	Ot’osi⸗tənə	Ot’osi	INTJ	_	_	5	discourse	_	Gloss=Then⸗and
-2	ʒaŋgä	ʒaŋgä	NOUN	_	_	5	obl	_	Gloss=boss
-3	ʒugdi-lə-ni	ʒugdi	NOUN	_	Case=Loc|Number=Sing|Person=3	5	obl	_	Gloss=house-LOC-3SG
+1	Ot’osi⸗tənə	Ot’osi	INTJ	_	_	4	discourse	_	Gloss=Then⸗and
+2	ʒaŋgä	ʒaŋgä	NOUN	_	_	4	obl	_	Gloss=boss
+3	ʒugdi-lə-ni	ʒugdi	NOUN	_	Case=Loc|Number=Sing|Person=3	4	obl	_	Gloss=house-LOC-3SG
 4	iigi-hə-ti	iigi	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=come.in-PST-3PL
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -285,16 +285,16 @@
 # text[eng] = I was almost three years old (lit. The third year went to me).
 1	Mne	Mne	PRON	_	Number=Sing|Person=1|PronType=Prs	4	iobj	_	Gloss=1SG.DAT
 2	shol	shol	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Imp	0	root	_	Gloss=go.IMP.PST.3SG
-3	tretij	tretij	NUM	_	_	4	obl	_	Gloss=third
+3	tretij	tretij	NUM	_	_	4	nmod	_	Gloss=third
 4	god	god	NOUN	_	_	2	obl	_	SpaceAfter=No|Gloss=year
 5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Udihe_grammar_34
 # text = Əninə mina-wa naa-tigi tinda-ga.
 # text[eng] = Mother put me on the ground.
-1	Əninə	Əninə	NOUN	_	Number=Sing	5	nsubj	_	Gloss=mother
-2	mina-wa	mina	PRON	_	Number=Sing|Person=1|PronType=Prs	5	iobj	_	Gloss=1SG-ACC
-3	naa-tigi	naa	NOUN	_	_	5	obl	_	Gloss=ground-DIR|Deriv=Dir
+1	Əninə	Əninə	NOUN	_	Number=Sing	4	nsubj	_	Gloss=mother
+2	mina-wa	mina	PRON	_	Number=Sing|Person=1|PronType=Prs	4	iobj	_	Gloss=1SG-ACC
+3	naa-tigi	naa	NOUN	_	_	4	obl	_	Gloss=ground-DIR|Deriv=Dir
 4	tinda-ga	tinda	VERB	_	Aspect=Perf|Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=let.go-PRF
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -309,13 +309,13 @@
 # sent_id = Udihe_grammar_36
 # text = Doumi-lə əgdi ñ’aula sugʒä-wa aki-si-ti məimə-ʒi.
 # text[eng] = On the bridge many boys were spearing fish with gigs.
-1	Doumi-lə	Doumi	NOUN	_	Case=Loc	6	obl	_	Gloss=bridge-LOC
-2	əgdi	əgdi	ADJ	_	Number=Plur	6	nsubj	_	Gloss=many
-3	ñ’aula	ñ’aula	NOUN	_	Number=Plur	6	nsubj	_	Gloss=boy
-4	sugʒä-wa	sugʒä	NOUN	_	Case=Acc	6	obj	_	Gloss=fish-ACC
-5	aki-si-ti	aki	VERB	_	Number=Plur|Person=3|VerbForm=Dur	6	advcl	_	Gloss=spear-DUR-3PL
-6	məimə-ʒi	məimə	NOUN	_	Case=Ins	0	root	_	SpaceAfter=No|Gloss=gig-INS
-7	.	.	PUNCT	_	_	6	punct	_	_
+1	Doumi-lə	Doumi	NOUN	_	Case=Loc	5	obl	_	Gloss=bridge-LOC
+2	əgdi	əgdi	ADJ	_	Number=Plur	3	amod	_	Gloss=many
+3	ñ’aula	ñ’aula	NOUN	_	Number=Plur	5	nsubj	_	Gloss=boy
+4	sugʒä-wa	sugʒä	NOUN	_	Case=Acc	5	obj	_	Gloss=fish-ACC
+5	aki-si-ti	aki	VERB	_	Number=Plur|Person=3|VerbForm=Dur	0	root	_	Gloss=spear-DUR-3PL
+6	məimə-ʒi	məimə	NOUN	_	Case=Ins	5	obl	_	SpaceAfter=No|Gloss=gig-INS
+7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Udihe_grammar_37
 # text = Bi ʒuk-tigi ii-ə-mi.
@@ -337,7 +337,7 @@
 # sent_id = Udihe_grammar_39
 # text = Əməgi-ə-si təluŋusi-ə-mu abugə-du.
 # text[eng] = Upon coming back we told (it) to our father.
-1	Əməgi-ə-si	Əməgi	VERB	_	VerbForm=Part	4	advcl	_	Gloss=come-REV-PP-PC.SS|Deriv=Rev
+1	Əməgi-ə-si	Əməgi	VERB	_	VerbForm=Part	2	advcl	_	Gloss=come-REV-PP-PC.SS|Deriv=Rev
 2	təluŋusi-ə-mu	təluŋusi	VERB	_	Clusivity=Ex|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	Gloss=tell-PST-1PL.EXCL
 3	abugə-du	abugə	NOUN	_	Case=Dat	2	iobj	_	SpaceAfter=No|Gloss=father-DAT
 4	.	.	PUNCT	_	_	2	punct	_	_
@@ -376,7 +376,7 @@
 # sent_id = Udihe_grammar_43
 # text = Minti ba:-di-fi kuti wac'a bie, ñamahi ba:-du tene egdi. bie
 # text[eng] = There are few tigers in our forests, but in warm countries there are many of them.
-1	Minti	Minti	PRON	_	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	Gloss=we
+1	Minti	Minti	PRON	_	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	2	nmod	_	Gloss=we
 2	ba:-di-fi	ba:-di	ADP	_	Case=Dat	5	obl	_	Gloss=place-DAT-IPL.IN|Deriv=IPL
 3	kuti	kuti	NOUN	_	_	5	nsubj	_	Gloss=tiger
 4	wac'a	wac'a	ADJ	_	Degree=Pos	5	amod	_	Gloss=few
@@ -385,8 +385,8 @@
 7	ñamahi	ñamahi	ADV	_	_	12	cc	_	Gloss=but
 8	ba:-du	ba:-du	ADP	_	Case=Dat	12	obl	_	Gloss=place-DAT
 9	tene	tene	ADV	_	_	12	advmod	_	Gloss=CONT
-10	egdi	egdi	ADJ	_	Degree=Pos	12	amod	_	SpaceAfter=No|Gloss=many
-11	.	.	PUNCT	_	_	5	punct	_	_
+10	egdi	egdi	ADJ	_	Degree=Pos	12	nsubj	_	SpaceAfter=No|Gloss=many
+11	.	.	PUNCT	_	_	12	punct	_	_
 12	bie	bie	VERB	_	Aspect=Hab|Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	Gloss=be.PRES.HAB
 
 # sent_id = Udihe_grammar_44
@@ -417,7 +417,7 @@
 4	do-ni-ni	do	ADP	_	Case=Dat|Number=Sing|Person=3	5	obl	_	Gloss=inside-DAT-3SG
 5	ise	ise	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Pass	0	root	_	Gloss=see-NEG-PAS-3SG
 6	uta-wa	uta	DET	_	Case=Acc|PronType=Dem	5	obj	_	Gloss=that-ACC
-7	e-u-ji	e-u	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No|Gloss=NEG-PAS-PRP
+7	e-u-ji	e-u	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No|Gloss=NEG-PAS-PRP
 8	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Udihe_grammar_47
@@ -429,8 +429,8 @@
 4	wakca-ini	wakca	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=hunt-3SG
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	kahi	kahi	NOUN	_	_	9	nsubj	_	Gloss=marten
-7	ba:	ba:	ADP	_	Case=Loc	9	obl	_	Gloss=place
-8	xuon-di-ni	xuon	ADP	_	Case=Dat|Number=Sing|Person=3	9	obl	_	Gloss=top-DAT-3SG
+7	ba:	ba:	ADP	_	Case=Loc	9	nmod	_	Gloss=place
+8	xuon-di-ni	xuon	ADP	_	Case=Dat|Number=Sing|Person=3	9	nmod	_	Gloss=top-DAT-3SG
 9	oloxi-we	oloxi	NOUN	_	Case=Acc	4	dep	_	Gloss=squirrel-ACC
 10	wakca-ini	wakca	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	Gloss=hunt-3SG
 11	kuti	kuti	NOUN	_	_	14	nsubj	_	Gloss=tiger
@@ -439,10 +439,10 @@
 14	wakca-ini	wakca	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	Gloss=hunt-3SG
 15	ni:	ni:	NOUN	_	_	18	nsubj	_	Gloss=man
 16	'o-wo-ni	'o-wo	NOUN	_	Case=Acc|Number=Sing|Person=3	18	obj	_	Gloss=domestic.animal-ACC-3SG
-17	mui-we	mui	NOUN	_	Case=Acc	18	obj	_	Gloss=horse-ACC
+17	mui-we	mui	NOUN	_	Case=Acc	16	conj	_	Gloss=horse-ACC
 18	jah-wa-da	jah	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	Gloss=kill-3SG
-19	xoηto-wo-do	xoηto	NOUN	_	Case=Acc	18	obj	_	Gloss=cow-ACC
-20	wa-ini	wa	PRON	_	PronType=Prs	18	obj	_	SpaceAfter=No|Gloss=other-ACC
+19	xoηto-wo-do	xoηto	NOUN	_	Case=Acc	16	conj	_	Gloss=cow-ACC
+20	wa-ini	wa	PRON	_	PronType=Prs	16	conj	_	SpaceAfter=No|Gloss=other-ACC
 21	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Udihe_grammar_48
@@ -464,7 +464,7 @@
 # sent_id = Udihe_grammar_50
 # text = Xoηto bua-tigi we:-le-mi kämbu-wasi-u-ji.
 # text[eng] = Crossing the mountain (going) to another place one makes a sacrifice.
-1	Xoηto	Xoηto	ADJ	_	_	2	obl	_	Gloss=other
+1	Xoηto	Xoηto	ADJ	_	_	2	nmod	_	Gloss=other
 2	bua-tigi	bua	NOUN	_	Case=Lat	4	dep	_	Gloss=place-LAT
 3	we:-le-mi	we:	VERB	_	Mood=Ind|VerbForm=Fin	4	dep	_	Gloss=mountain-V-INF|VerbFormOrig=V
 4	kämbu-wasi-u-ji	kämbu	VERB	_	Mood=Ind|Polarity=Pos|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=sacrifice-DIS-PAS-PRP|VerbFormOrig=Dis
@@ -563,13 +563,14 @@
 # sent_id = Udihe_grammar_60
 # text = Sukpai b'äsa-du-ni ba: xo:n-du-ni omo-s'o-go sita bagdi-e-ni.
 # text[eng] = On the river Sukpai in the taiga a child was born.
-1	Sukpai	Sukpai	PROPN	_	_	5	obl	_	Gloss=Sukpai
+1	Sukpai	Sukpai	PROPN	_	_	7	obl	_	Gloss=Sukpai
 2	b'äsa-du-ni	b'äsa	ADP	_	Case=Dat|Number=Sing|Person=3	1	case	_	Gloss=river-DAT-3SG
-3	ba:	ba:	NOUN	_	_	5	obl	_	Gloss=place
+3	ba:	ba:	NOUN	_	_	7	obl	_	Gloss=place
 4	xo:n-du-ni	xo:n	ADP	_	Case=Dat|Number=Sing|Person=3	3	case	_	Gloss=top-DAT-3SG
-5	omo-s'o-go	omo	NOUN	_	_	6	nsubj	_	Gloss=child
-6	sita bagdi-e-ni	sita bagdi	VERB	_	Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Gloss=be.born-PAST-3SG
-7	.	.	PUNCT	_	_	6	punct	_	_
+5	omo-s'o-go	omo	NOUN	_	_	6	nummod	_	Gloss=one-ATTR-INDEF
+6	sita	sita	NOUN	_	_	7	nsubj	_	Gloss=child
+7	bagdi-e-ni	bagdi	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=be.born-PAST-3SG
+8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = Udihe_grammar_61
 # text = Okto-mo jat'au-du gekti-mi bagdi-e-ni c̆ind'a dieli-mi gekti-du bagdi-e-ni.
@@ -612,7 +613,7 @@
 4	zua	zua	NOUN	_	_	3	obl	_	Gloss=summer
 5	sugdä-wa	sugdä	NOUN	_	Case=Acc	6	obj	_	Gloss=fish-ACC
 6	diga-mie	diga	VERB	_	VerbForm=Inf	3	advcl	_	Gloss=eat-INF
-7	tue	tue	NOUN	_	_	8	obl	_	Gloss=winter
+7	tue	tue	NOUN	_	_	8	nmod	_	Gloss=winter
 8	ule-we	ule	NOUN	_	Case=Acc	9	obj	_	Gloss=meat-ACC
 9	diga-mie	diga	VERB	_	VerbForm=Inf	3	advcl	_	Gloss=eat-INF
 10	ute	ute	PRON	_	PronType=Prs	9	obl	_	Gloss=that
@@ -640,7 +641,7 @@
 4	bagdi-e-mi	bagdi	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	Gloss=live-PP-REF
 5	kese-kce:-mi	kese	VERB	_	Aspect=Dur|VerbForm=Part	2	advcl	_	Gloss=suffer-DUR.PP-REF|VerbFormOrig=PP-REF
 6	zei-tigi:	zei	NOUN	_	Case=Lat|Number=Plur	4	obl	_	Gloss=kinsman-LAT.REF
-7	uti	uti	PRON	_	PronType=Prs	4	obj	_	Gloss=that
+7	uti	uti	PRON	_	PronType=Prs	8	det	_	Gloss=that
 8	getu-we	getu	PRON	_	Number=Plur|PronType=Prs	4	obj	_	Gloss=PL-ACC
 9	tatusi-ne-gi-e-ni	tatusi	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No|Gloss=teach-DIR-REP-PAST-3SG
 10	.	.	PUNCT	_	_	2	punct	_	_
@@ -743,7 +744,7 @@
 2	sagdi	sagdi	ADJ	_	_	1	obl	_	Gloss=big
 3	namu	namu	NOUN	_	_	4	compound	_	Gloss=sea
 4	egelie	egelie	VERB	_	_	1	obl	_	Gloss=around
-5	ηic'a	ηic'a	ADJ	_	_	6	obl	_	Gloss=small
+5	ηic'a	ηic'a	ADJ	_	_	6	nmod	_	Gloss=small
 6	namu	namu	NOUN	_	_	1	obl	_	Gloss=sea
 7	egelie	egelie	VERB	_	_	1	obl	_	Gloss=around
 
@@ -878,4 +879,3 @@
 2	atana-mi	atana	VERB	_	VerbForm=Inf	4	advcl	_	Gloss=be.out.of.breath-INF
 3	ogbö	ogbö	PROPN	_	_	4	nsubj	_	Gloss=elk
 4	bude:-nie	bude	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=die-PAST-3SG
-
