@@ -131,13 +131,13 @@
 # sent_id = Udihe_grammar_16
 # text = Mənə aka-la-i sindagi-a-ni b’ata-wa əmugə giə⸗də.
 # text[eng] = She put the cradle with the child on her back.
-1	Mənə	Mənə	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Gloss=REFL
-2	aka-la-i	aka	NOUN	_	Case=Loc	5	nmod	_	Gloss=back-LOC-SS
-3	sindagi-a-ni	sindagi	NOUN	_	Case=Acc|Number=Sing	5	obj	_	Gloss=put.as.backpack-PST-3SG
-4	b’ata-wa	b’ata	NOUN	_	Case=Acc|Number=Sing	5	obj	_	Gloss=boy-ACC
-5	əmugə	əmugə	NOUN	_	_	0	root	_	Gloss=cradle
+1	Mənə	Mənə	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Gloss=REFL
+2	aka-la-i	aka	NOUN	_	Case=Loc	3	obl	_	Gloss=back-LOC-SS
+3	sindagi-a-ni	sindagi	VERB	_	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=put.as.backpack-PST-3SG
+4	b’ata-wa	b’ata	NOUN	_	Case=Acc|Number=Sing	3	obj	_	Gloss=boy-ACC
+5	əmugə	əmugə	NOUN	_	_	3	obj	_	Gloss=cradle
 6	giə⸗də	giə⸗də	ADP	_	_	5	case	_	SpaceAfter=No|Gloss=COMIT-FOC
-7	.	.	PUNCT	_	_	5	punct	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Udihe_grammar_17
 # text = Ni-tigi goala-ŋi-miə⸗də uli-lə taŋda bələntə.
@@ -474,7 +474,7 @@
 # text = Kämbu-wasi-e-fi amä:-la-ni se:xi pahi-zi-ni xula-iti.
 # text[eng] = After making a sacrifice they tie a piece of cloth (to a tree).
 1	Kämbu-wasi-e-fi	Kämbu	VERB	_	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	Gloss=sacrifice-DIS-PP-SS|VerbFormOrig=Dis
-2	amä:-la-ni	amä:	NOUN	_	Case=Loc|Number=Sing|Person=3	1	advmod	_	Gloss=after-LOC-3SG
+2	amä:-la-ni	amä:	NOUN	_	Case=Loc|Number=Sing|Person=3	1	obl	_	Gloss=after-LOC-3SG
 3	se:xi	se:xi	NOUN	_	_	4	obj	_	Gloss=cloth
 4	pahi-zi-ni	pahi	NOUN	_	Case=Ins|Number=Sing|Person=3	5	obj	_	Gloss=piece-INST-3SG
 5	xula-iti	xula	VERB	_	Number=Plur|Person=3|Tense=Past	1	conj	_	SpaceAfter=No|Gloss=tie-3PL
